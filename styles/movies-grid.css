@@ -1,0 +1,41 @@
+.movies-grid {
+  display: flex;
+  flex-wrap: wrap; }
+  .movies-grid__cell_1 {
+    margin: 26px 26px 26px 0;
+    width: calc(100% / 12 * 1 - 26px); }
+  .movies-grid__cell_2 {
+    margin: 26px 26px 26px 0;
+    width: calc(100% / 12 * 2 - 26px); }
+  .movies-grid__cell_3 {
+    margin: 26px 26px 26px 0;
+    width: calc(100% / 12 * 3 - 26px); }
+  .movies-grid__cell_4 {
+    margin: 26px 26px 26px 0;
+    width: calc(100% / 12 * 4 - 26px); }
+  .movies-grid__cell_5 {
+    margin: 26px 26px 26px 0;
+    width: calc(100% / 12 * 5 - 26px); }
+  .movies-grid__cell_6 {
+    margin: 26px 26px 26px 0;
+    width: calc(100% / 12 * 6 - 26px); }
+  .movies-grid__cell_7 {
+    margin: 26px 26px 26px 0;
+    width: calc(100% / 12 * 7 - 26px); }
+  .movies-grid__cell_8 {
+    margin: 26px 26px 26px 0;
+    width: calc(100% / 12 * 8 - 26px); }
+  .movies-grid__cell_9 {
+    margin: 26px 26px 26px 0;
+    width: calc(100% / 12 * 9 - 26px); }
+  .movies-grid__cell_10 {
+    margin: 26px 26px 26px 0;
+    width: calc(100% / 12 * 10 - 26px); }
+  .movies-grid__cell_11 {
+    margin: 26px 26px 26px 0;
+    width: calc(100% / 12 * 11 - 26px); }
+  .movies-grid__cell_12 {
+    margin: 26px 26px 26px 0;
+    width: calc(100% / 12 * 12 - 26px); }
+
+/*# sourceMappingURL=movies-grid.css.map */

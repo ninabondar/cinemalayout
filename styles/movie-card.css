@@ -1,0 +1,46 @@
+.movie-card {
+  background-color: #ffffff;
+  box-shadow: 0 2px 35px 0 rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  height: 100%; }
+  .movie-card__pic {
+    width: 100%; }
+  .movie-card__movie-data {
+    position: relative;
+    margin-top: -30px;
+    margin-left: 12px;
+    max-height: 304px;
+    padding: 5px;
+    padding-bottom: 10px;
+    text-overflow: clip;
+    bottom: 0; }
+  .movie-card__year {
+    color: #babbc3;
+    position: relative;
+    bottom: 20px;
+    font-size: 18px; }
+  .movie-card__title {
+    overflow: hidden;
+    margin: 5px 0 5px 0;
+    color: #494c62;
+    font-weight: 400; }
+  .movie-card__categories {
+    margin: 5px 0 5px 0;
+    font-family: "Segoe UI", sans-serif;
+    font-weight: 400;
+    text-overflow: clip;
+    height: 20%;
+    padding-right: 20%;
+    color: #babbc3; }
+  .movie-card__score {
+    position: absolute;
+    right: 20px;
+    padding: 2px 7px;
+    bottom: 2px;
+    font-weight: 400;
+    display: inline-block;
+    border-radius: 3px;
+    border: solid 1px #ff0079;
+    color: #ff0079; }
+
+/*# sourceMappingURL=movie-card.css.map */

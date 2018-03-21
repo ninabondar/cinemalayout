@@ -1,0 +1,18 @@
+.filter-options {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-start;
+  width: 98%;
+  color: #80818a;
+  border-bottom: 2px solid rgba(128, 129, 138, 0.2);
+  padding: 0; }
+  .filter-options__item {
+    padding: 16px 18px;
+    font-size: 20px; }
+
+.filter-options__item_focus {
+  border-bottom: 2px solid #ff0079;
+  color: #ff0079;
+  margin-bottom: -2px; }
+
+/*# sourceMappingURL=filter-options.css.map */

@@ -1,0 +1,16 @@
+$margin: 26px;
+
+
+.movies-grid{
+  display: flex;
+  flex-wrap: wrap;
+
+  &__cell{
+    @for $i from 1 through 12{
+      &_#{$i}{
+        margin: $margin $margin $margin 0;
+        width: calc(100% / 12 * #{$i} - #{$margin});
+      }
+    }
+  }
+}

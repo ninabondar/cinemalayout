@@ -1,0 +1,46 @@
+.moviebox-footer {
+  font-family: "Segoe UI", sans-serif;
+  padding: 0 100px 0 100px;
+  height: 300px; }
+  .moviebox-footer__navigation {
+    display: flex;
+    align-items: center; }
+  .moviebox-footer__navigation-title {
+    margin: 10px 0 10px 0;
+    font-weight: 500;
+    font-size: 26px;
+    color: #494c62;
+    padding-top: 20px;
+    padding-bottom: 20px; }
+  .moviebox-footer__navigation-item {
+    margin-left: 20px;
+    text-decoration: none;
+    font-family: "Segoe UI", sans-serif;
+    font-size: 16px;
+    padding-left: 20px;
+    color: #80818a;
+    font-weight: 400; }
+    .moviebox-footer__navigation-item:nth-child(2) {
+      margin-left: auto; }
+
+.moviebox-footer__copyright {
+  color: #80818a;
+  font-weight: 300;
+  font-size: 14px;
+  margin-bottom: -20px;
+  margin-top: 20px; }
+
+.moviebox-footer__link {
+  text-decoration: none; }
+
+.moviebox-footer__img {
+  margin-left: 10px;
+  width: 25px;
+  height: 25px;
+  opacity: 0.8;
+  float: right; }
+
+.moviebox-footer__socials {
+  margin-top: 20px; }
+
+/*# sourceMappingURL=mooviebox-footer.css.map */

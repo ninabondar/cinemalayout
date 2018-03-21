@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,8BAA8B;EAC5B,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;EACZ,UAAU,EAAE,IAAI;EAChB,YAAY,EAAE,IAAI;;AAGpB,sBAAsB;EACpB,WAAW,EAAE,GAAG",
+"sources": ["filter-options-layouts.scss"],
+"names": [],
+"file": "filter-options-layouts.css"
+}

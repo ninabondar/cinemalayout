@@ -1,0 +1,31 @@
+.site-info {
+  display: flex;
+  align-items: center; }
+  .site-info__title {
+    margin: 0;
+    font-weight: 400;
+    font-family: "Segoe UI", sans-serif;
+    font-size: 30px;
+    color: #ffffff; }
+  .site-info__navigation {
+    margin-left: auto; }
+  .site-info__link {
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    height: 80px;
+    margin-left: 5px; }
+    .site-info__link_background-red {
+      border-radius: 3px;
+      background-color: #ff0079;
+      padding-left: 30px;
+      padding-right: 30px; }
+
+.site-info__search {
+  right: 310px;
+  top: 43px;
+  position: absolute;
+  width: 20px;
+  height: 20px; }
+
+/*# sourceMappingURL=site-info.css.map */

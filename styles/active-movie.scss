@@ -1,0 +1,101 @@
+.active-movie{
+  position: relative;
+  box-sizing: border-box;
+  padding: 30px 100px 0 100px;
+  height: 600px;
+  background-size: cover;
+  background:  no-repeat;
+  //background: url("http://res.cloudinary.com/djeojbrlh/image/upload/w_1600,h_600/wrath_of_the_titans_k2wnvf.jpg") no-repeat;
+
+  &__pic{
+    position: absolute;
+    z-index: -20;
+    height: 600px;
+    width: 100%;
+  }
+
+  &__info{
+    position: absolute;
+    bottom: 30px;
+  }
+
+  &__title{
+    margin: 10px 0 5px 0;
+    font-family: "Segoe UI", SansSerif;
+    font-size: 50px;
+    font-weight: 400;
+    color: #ffffff;
+  }
+
+  &__key-params{
+    display: flex;
+  }
+
+  &__genres-list{
+    margin: 0 0 20px 0;
+    padding: 0;
+    text-overflow: ellipsis;
+  }
+
+  &__genres-list-item{
+    margin-right: 20px;
+    display: inline-block;
+    opacity: 0.7;
+    font-family: "Segoe UI", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #ffffff;
+  }
+
+  &__duration{
+    margin: 0 0 30px 0;
+    opacity: 0.7;
+    font-family: "Segoe UI", sans-serif;;
+    font-size: 15px;
+    font-weight: 400;
+    color: #ffffff;
+
+    &:before{
+      content: '';
+      height: 30px;
+      width: 1px;
+      opacity: 0.8;
+      background-color: white;
+    }
+
+  }
+
+
+  &__link {
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    height: 80px;
+    margin-right: 12px;
+    border-radius: 2px;
+
+    &_background-red {
+      background-color: #ff0079;
+      border: 1px solid #ff0079;
+    }
+
+    &_bordered {
+      border: 1px solid white;
+    }
+  }
+  &__add-wishlist{
+    background-color: transparent;
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    &:active{
+      outline: none;
+    }
+    &:focus{
+      outline: none;
+    }
+  }
+}
+

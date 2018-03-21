@@ -1,0 +1,73 @@
+.active-movie {
+  position: relative;
+  box-sizing: border-box;
+  padding: 30px 100px 0 100px;
+  height: 600px;
+  background-size: cover;
+  background: no-repeat; }
+  .active-movie__pic {
+    position: absolute;
+    z-index: -20;
+    height: 600px;
+    width: 100%; }
+  .active-movie__info {
+    position: absolute;
+    bottom: 30px; }
+  .active-movie__title {
+    margin: 10px 0 5px 0;
+    font-family: "Segoe UI", SansSerif;
+    font-size: 50px;
+    font-weight: 400;
+    color: #ffffff; }
+  .active-movie__key-params {
+    display: flex; }
+  .active-movie__genres-list {
+    margin: 0 0 20px 0;
+    padding: 0;
+    text-overflow: ellipsis; }
+  .active-movie__genres-list-item {
+    margin-right: 20px;
+    display: inline-block;
+    opacity: 0.7;
+    font-family: "Segoe UI", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #ffffff; }
+  .active-movie__duration {
+    margin: 0 0 30px 0;
+    opacity: 0.7;
+    font-family: "Segoe UI", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #ffffff; }
+    .active-movie__duration:before {
+      content: '';
+      height: 30px;
+      width: 1px;
+      opacity: 0.8;
+      background-color: white; }
+  .active-movie__link {
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    height: 80px;
+    margin-right: 12px;
+    border-radius: 2px; }
+    .active-movie__link_background-red {
+      background-color: #ff0079;
+      border: 1px solid #ff0079; }
+    .active-movie__link_bordered {
+      border: 1px solid white; }
+  .active-movie__add-wishlist {
+    background-color: transparent;
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+    border: none;
+    outline: none; }
+    .active-movie__add-wishlist:active {
+      outline: none; }
+    .active-movie__add-wishlist:focus {
+      outline: none; }
+
+/*# sourceMappingURL=active-movie.css.map */

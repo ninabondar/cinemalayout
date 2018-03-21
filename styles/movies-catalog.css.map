@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,eAAe;EACb,OAAO,EAAE,kBAAkB;EAC3B,gBAAgB,EAAE,OAAO",
+"sources": ["movies-catalog.scss"],
+"names": [],
+"file": "movies-catalog.css"
+}

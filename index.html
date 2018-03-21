@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TheMovieBox</title>
+    <link rel="stylesheet" href="styles/movies-grid.css">
+    <link rel="stylesheet" href="styles/movies-catalog.css">
+    <link rel="stylesheet" href="styles/movies-catalog-filter.css">
+    <link rel="stylesheet" href="styles/movie-card.css">
+    <link rel="stylesheet" href="styles/site-info.css">
+    <link rel="stylesheet" href="styles/active-movie.css">
+    <link rel="stylesheet" href="styles/mooviebox-footer.css">
+    <link rel="stylesheet" href="styles/commons.css">
+    <link rel="stylesheet" href="styles/rating-box.css">
+    <link rel="stylesheet" href="styles/filter-options.css">
+    <link rel="stylesheet" href="styles/movies-catalog-filter.css">
+    <link rel="stylesheet" href="styles/filter-options-layouts.css">
+    <link rel="stylesheet" href="styles/loading.css">
+    <script src="js/index.js"></script>
+</head>
+<body>
+<img class="active-movie__pic" src="http://res.cloudinary.com/djeojbrlh/image/upload/w_1600,h_600/film_wrathofthetitans_featureimage_desktop_1600x900_coow9w.jpg"
+     alt="">
+<header class="active-movie">
+    <section class="site-info">
+        <h1 class="site-info__title">THEMOVIEBOX</h1>
+        <div class="site-info__navigation">
+            <img class="site-info__search" src=" img/search.svg" alt="search">
+            <a class="site-info__link" href="#">LOG IN</a>
+            <a class="site-info__link site-info__link_background-red" href="#">SIGN UP</a>
+        </div>
+    </section>
+    <article class="active-movie__info">
+        <h1 class="active-movie__title">WRATH OF THE TITANS</h1>
+        <div class="active-movie__key-params">
+            <ul class="active-movie__genres-list">
+                <li class="active-movie__genres-list-item">Fantasy</li>
+                <li class="active-movie__genres-list-item">Animation</li>
+                <li class="active-movie__genres-list-item">Family</li>
+            </ul>
+            <time class="active-movie__duration">   Duration: 1h 52m</time>
+        </div>
+
+        <a class="active-movie__link active-movie__link_background-red" href="#">WATCH MOVIE</a>
+        <a class="active-movie__link active-movie__link_bordered" href="#">VIEW INFO</a>
+        <button class="active-movie__add-wishlist">+ ADD TO WISHLIST</button>
+    </article>
+    <section class="rating-box">
+        <p class="rating-box__header"><strong style="font-weight: 600">Rating</strong> based on 3.546 reviews</p>
+        <img class="rating-box__star" src="img/star.svg" alt="stars" >
+        <img class="rating-box__star" src="img/star.svg">
+        <img class="rating-box__star" src="img/star.svg">
+        <img class="rating-box__star" src="img/star_bold.svg">
+        <img class="rating-box__star" src="img/star_bold.svg">
+        <div class="rating-box__digit">3.4</div>
+    </section>
+</header>
+<main class="movies-catalog">
+    <header class="movies-catalog-filter">
+        <ul class="filter-options">
+            <li class="filter-options__item filter-options__item_focus">Trending</li>
+            <li class="filter-options__item">Top Rated</li>
+            <li class="filter-options__item">New Arrivals</li>
+            <li class="filter-options__item">Genre</li>
+            <div class="filter-option-layouts">
+            <img class="filter-option-layouts__layout" src="img/layout.svg"  alt="layouts"/>
+            <img class="filter-option-layouts__layout" src="img/list.svg" />
+            </div>
+        </ul>
+    </header>
+
+    <section class="movies-grid">
+        <div class="movies-grid__cell movies-grid__cell_3">
+            <section class="movie-card">
+                <img class="movie-card__pic"
+                     src="http://res.cloudinary.com/djeojbrlh/image/upload/w_320,h_480,c_fill/logan_gdw7b0.jpg" alt="titans">
+                <section class="movie-card__movie-data">
+                    <time class="movie-card__year">2017</time>
+                    <h2 class="movie-card__title">Logan</h2>
+                    <p class="movie-card__categories">Action, Adventure, Fantasy</p>
+                    <p class="movie-card__score">4.0</p>
+                </section>
+            </section>
+        </div>
+        <div class="movies-grid__cell movies-grid__cell_3">
+            <section class="movie-card">
+                <img class="movie-card__pic"
+                     src="http://res.cloudinary.com/djeojbrlh/image/upload/c_scale,h_480,w_320,c_fill/v1516187377/John_Wick_Chapter_2_Coming_Soon_u5sipf.jpg" alt="titans">
+                <section class="movie-card__movie-data">
+                    <time class="movie-card__year">2017</time>
+                    <h2 class="movie-card__title">John Wick: Chapter 2 </h2>
+                    <p class="movie-card__categories">Action,Thriller</p>
+                    <p class="movie-card__score">4.8</p>
+                </section>
+            </section>
+        </div>
+        <div class="movies-grid__cell movies-grid__cell_3">
+            <section class="movie-card">
+                <img class="movie-card__pic"
+                     src="http://res.cloudinary.com/djeojbrlh/image/upload/c_scale,h_480,w_320,c_fill/v1516187382/two-magical-new-clips-for-fantastic-beasts-and-where-to-find-them-and-an-imax-poster3_xo7ir6.jpg"
+                     alt="titans">
+                <section class="movie-card__movie-data">
+                    <time class="movie-card__year">2017</time>
+                    <h2 class="movie-card__title">Fantastic beasts an..</h2>
+                    <p class="movie-card__categories"> Adventure, Fantasy, Action asnkjdn kansfjdk nadns fklajgsf nkdgs ka</p>
+                    <p class="movie-card__score">4.5</p>
+                </section>
+            </section>
+        </div>
+
+        <div class="movies-grid__cell movies-grid__cell_3">
+            <section class="movie-card">
+                <img class="movie-card__pic" src="http://res.cloudinary.com/djeojbrlh/image/upload/c_scale,w_320,c_fill/v1516187576/shadesdarker_cfm0ml.jpg" alt="titans">
+                <section class="movie-card__movie-data">
+                    <time class="movie-card__year">2017</time>
+                    <h2 class="movie-card__title">Fifty shades darker</h2>
+                    <p class="movie-card__categories">Drama, Romance</p>
+                    <p class="movie-card__score">4.2</p>
+                </section>
+            </section>
+        </div>
+        <div class="movies-grid__cell movies-grid__cell_3">
+            <section class="movie-card">
+                <img class="movie-card__pic" src="http://res.cloudinary.com/djeojbrlh/image/upload/c_scale,h_480,w_320,c_fill/v1516187665/beauty_beast_wq3ae5.jpg" alt="titans">
+                <section class="movie-card__movie-data">
+                    <time class="movie-card__year">2017</time>
+                    <h2 class="movie-card__title">Beauty and the Beast</h2>
+                    <p class="movie-card__categories">Musical, Drama, Fantasy</p>
+                    <p class="movie-card__score">4.4</p>
+                </section>
+            </section>
+        </div>
+        <div class="movies-grid__cell movies-grid__cell_3">
+            <section class="movie-card">
+                <img class="movie-card__pic" src="http://res.cloudinary.com/djeojbrlh/image/upload/c_scale,h_480,w_320,c_fill/v1516187810/arrival_212038_rvh7mu.jpg" alt="titans">
+                <section class="movie-card__movie-data">
+                    <time class="movie-card__year">2017</time>
+                    <h2 class="movie-card__title">Arrival</h2>
+                    <p class="movie-card__categories">Action, Thriller, Sci-Fi</p>
+                    <p class="movie-card__score">3.4</p>
+                </section>
+            </section>
+        </div>
+        <div class="movies-grid__cell movies-grid__cell_3">
+            <section class="movie-card">
+                <img class="movie-card__pic" src="http://res.cloudinary.com/djeojbrlh/image/upload/c_scale,h_480,w_320,c_fill/v1516187860/justice-league-poster_lenoh9.jpg" alt="titans">
+                <section class="movie-card__movie-data">
+                    <time class="movie-card__year">2017</time>
+                    <h2 class="movie-card__title">Justice League</h2>
+                    <p class="movie-card__categories"> Adventure, Sci-Fi, Action</p>
+                    <p class="movie-card__score">3.9</p>
+                </section>
+            </section>
+        </div>
+        <div class="movies-grid__cell movies-grid__cell_3">
+            <section class="movie-card">
+                <img class="movie-card__pic" src="http://res.cloudinary.com/djeojbrlh/image/upload/c_scale,h_480,w_320,c_fill/v1516187914/pirates_ie1a4r.jpg" alt="titans">
+                <section class="movie-card__movie-data">
+                    <time class="movie-card__year">2017</time>
+                    <h2 class="movie-card__title">Pirates of the Carrib..</h2>
+                    <p class="movie-card__categories">Action, Adventure, Fantasy</p>
+                    <p class="movie-card__score">4.2</p>
+                </section>
+            </section>
+        </div>
+        <div class="movies-grid__cell movies-grid__cell_3">
+            <section class="movie-card">
+                <img class="movie-card__pic" src="http://res.cloudinary.com/djeojbrlh/image/upload/c_scale,h_480,w_320,c_fill/v1516187990/Wonder_Woman_first_look_promo_rs5ao5.jpg" alt="titans">
+                <section class="movie-card__movie-data">
+                    <time class="movie-card__year">2017</time>
+                    <h2 class="movie-card__title">Wonder Woman</h2>
+                    <p class="movie-card__categories">Action, Sci-Fi, Adventure</p>
+                    <p class="movie-card__score">3.8</p>
+                </section>
+            </section>
+        </div>
+        <div class="movies-grid__cell movies-grid__cell_3">
+            <section class="movie-card">
+                <img class="movie-card__pic" src="http://res.cloudinary.com/djeojbrlh/image/upload/c_scale,h_480,w_320,c_fill/v1516188035/Guardians_of_the_Galaxy_Vol._2__film__poster_004_tdn17q.jpg" alt="titans">
+                <section class="movie-card__movie-data">
+                    <time class="movie-card__year">2017</time>
+                    <h2 class="movie-card__title">Guardians of the  Gal..</h2>
+                    <p class="movie-card__categories">Sci-Fi, Adventure, Comedy</p>
+                    <p class="movie-card__score">3.0</p>
+                </section>
+            </section>
+        </div>
+        <div class="movies-grid__cell movies-grid__cell_3">
+            <section class="movie-card">
+                <img class="movie-card__pic" src="http://res.cloudinary.com/djeojbrlh/image/upload/c_scale,h_480,w_320,c_fill/v1516188107/alien_mz7cbk.jpg" alt="titans">
+                <section class="movie-card__movie-data">
+                    <time class="movie-card__year">2017</time>
+                    <h2 class="movie-card__title">Alien: Covenant</h2>
+                    <p class="movie-card__categories">Horror, Action, Sci-Fi</p>
+                    <p class="movie-card__score">4.0</p>
+                </section>
+            </section>
+        </div>
+        <div class="movies-grid__cell movies-grid__cell_3">
+            <section class="movie-card">
+                <img class="movie-card__pic" src="http://res.cloudinary.com/djeojbrlh/image/upload/c_scale,h_480,w_320,/v1516188202/captain_underpants_2017_animation-wallpaper-540x960_xi0pjh.jpg" alt="titans">
+                <section class="movie-card__movie-data">
+                    <time class="movie-card__year">2017</time>
+                    <h2 class="movie-card__title">Captain Underpan..</h2>
+                    <p class="movie-card__categories">Animation, Comedy</p>
+                    <p class="movie-card__score">3.5</p>
+                </section>
+            </section>
+        </div>
+        <div class='wrapper cell_12'>
+            <!-- not to make it a 100% container, using flexbox of films instead -->
+            <div class='loading'>
+                <div class='loading__bar'></div>
+                <div class='loading__bar'></div>
+                <div class='loading__bar'></div>
+                <div class='loading__bar'></div>
+                <div class='loading__bar'></div>
+                <div class='loading__bar'></div>
+                <p class='loading__text'>LOADING</p>
+            </div>
+        </div>
+    </section>
+</main>
+<footer class="moviebox-footer">
+    <section class="moviebox-footer__navigation">
+        <h2 class="moviebox-footer__navigation-title">THEMOVIEBOX</h2>
+        <a class="moviebox-footer__navigation-item" href="#">About</a>
+        <a class="moviebox-footer__navigation-item" href="#">Movies</a>
+        <a class="moviebox-footer__navigation-item" href="#">Ratings</a>
+        <a class="moviebox-footer__navigation-item" href="#">Contact</a>
+    </section>
+    <hr style="opacity: 0.2">
+    <section class="moviebox-footer__socials">
+
+        <p class="moviebox-footer__copyright">Designed by Milan Houter. All rights reserved.</p>
+
+        <a href="google.com" class="moviebox-footer__link"><img  class='moviebox-footer__img'
+                                                                 src="img/pinterest.svg" alt="pinterest"/></a>
+
+        <a href="google.com" class="moviebox-footer__link"><img  class='moviebox-footer__img' src="img/facebook-logo-in-circular-button-outlined-social-symbol.svg"
+                                                                 alt="fb"/></a>
+        <a href="google.com" class="moviebox-footer__link"><img  class='moviebox-footer__img'
+                                                                 src="img/social-linkedin-circular-button.svg" alt="Ln"/></a>
+        <a href="google.com" class="moviebox-footer__link"><img  class='moviebox-footer__img'
+                                                                 src="img/twitter.svg" alt="twitter"/></a>
+
+    </section>
+</footer>
+</body>
+</html>
